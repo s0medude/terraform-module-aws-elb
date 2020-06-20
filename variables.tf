@@ -113,6 +113,7 @@ variable "tags" {
   default     = {}
 }
 
+
 variable "lb_depends_on" {
   description = "Dependecies of the Load Balancer to be created"
   type        = any
